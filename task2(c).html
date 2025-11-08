@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tas2 (C)</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #95c757, #2a9b72);
+      }
+      h1,
+      span {
+        color: rgb(7, 90, 69);
+      }
+      .main {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        width: 300px;
+        border-radius: 8px;
+        padding: 25px;
+        background-color: white;
+        margin: 100px auto;
+      }
+      button {
+        background-color: rgb(7, 90, 69);
+        color: white;
+      }
+      input {
+        width: 250px;
+        margin: 20px;
+        height: 40px;
+      }
+      .submit {
+        margin-left: 50px;
+      }
+      .submit button {
+        padding: 12px;
+        margin-left: 50px;
+        margin-top: 10px;
+        border-radius: 8px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1 style="text-align: center; font-weight: lighter">Login</h1>
+      <input type="email" placeholder="Email" /><br />
+      <input
+        type="password"
+        placeholder="Password"
+        style="margin-bottom: auto"
+      /><br />
+      <input
+        type="checkbox"
+        style="width: auto; margin: 0; margin-left: 20px; height: auto"
+      />Show Password
+      <div class="submit">
+        <button type="submit">SIGN IN</button><br />
+        <p>Forgot <span>Username / Password</span></p>
+        <p>Don't have an account? <span>Sign up</span></p>
+      </div>
+    </div>
+  </body>
+</html>

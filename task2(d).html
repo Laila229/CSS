@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tas2 (D)</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #95c757, #2a9b72);
+      }
+      .input-box {
+        position: relative;
+        width: 250px;
+        margin: 40px auto;
+      }
+      input {
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid #888;
+        font-size: 16px;
+        padding: 10px 5px;
+        background: transparent;
+      }
+      label {
+        position: absolute;
+        top: 10px;
+        left: 5px;
+        color: rgb(111, 196, 163);
+      }
+      button {
+        background: linear-gradient(to right, #95c757, #2a9b72);
+        color: white;
+        width: 270px;
+        border-radius: 5px;
+        height: 40px;
+        margin: auto 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        width: 300px;
+        border-radius: 8px;
+        padding: 25px;
+        background-color: white;
+        margin: 100px auto;
+      "
+    >
+      <h1 style="text-align: center">USER LOGIN</h1>
+      <div class="input-box">
+        <input type="text" placeholder="" id="name" />
+        <label for="name">Username</label>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="" id="pass" />
+        <label for="pass">Password</label>
+      </div>
+      <button type="submit">LOGIN</button>
+      <p style="text-align: center">Forgot password?</p>
+    </div>
+  </body>
+</html>

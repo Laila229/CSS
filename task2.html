@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task 2</title>
+    <style>
+      div {
+        margin-left: 37vw;
+      }
+      button {
+        border-radius: 50px;
+        width: 300px;
+        height: 40px;
+      }
+      input {
+        width: 300px;
+        height: 30px;
+        border: 1px solid #888;
+        border-radius: 5px;
+      }
+      .show-text {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 14px;
+      }
+      .pass-box {
+        position: relative;
+        margin: 0px;
+      }
+      .divider {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 20px 0;
+      }
+      .divider::before,
+      .divider::after {
+        content: '';
+        flex: 1;
+        border-bottom: 1px solid #888;
+      }
+      .divider:not(:empty)::after {
+        margin-left: 0.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="image/Linkedin-Logo.png"
+      alt="Linked in"
+      style="margin-left: 0%"
+      width="100px"
+      height="50px"
+    />
+    <div
+      style="
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        width: 300px;
+        border-radius: 8px;
+        padding: 25px;
+      "
+    >
+      <h1>Sign in</h1>
+      <p>Stay updated on your professional world</p>
+      <form>
+        <input
+          type="text"
+          placeholder="Email or phone"
+          style="margin-bottom: 10px"
+        /><br />
+        <div class="pass-box">
+          <input type="password" placeholder="password" /><span
+            class="show-text"
+            >show</span
+          >
+        </div>
+        <p>Forgot password?</p>
+        <button
+          type="submit"
+          style="background-color: #092bb1; color: white; border: none"
+        >
+          Sign in
+        </button>
+        <div class="divider">or</div>
+        <button style="background-color: white">
+          <img
+            src="image/Apple_logo_black.svg"
+            alt="logo"
+            width="20px"
+            height="20px"
+          />
+          Sign in with Apple
+        </button>
+      </form>
+    </div>
+    <p style="text-align: center">
+      New to Linkedin? <span style="color: #092bb1">Join now</span>
+    </p>
+  </body>
+</html>
